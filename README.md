@@ -32,8 +32,8 @@ python create_dataset.py
 
 ## Notes
 
-- The data represents valid paths from node 0 to node 19 in a 20-node network.
-- Only paths of length 7 to 10 nodes are considered.
-- Optimization is subject to constraints on comfort score and distance.
+ - The data represents valid paths from node 0 to node 19 in a 20-node network.
+ - Only paths of length 7 to 10 nodes are considered.
+ - Optimization is subject to constraints on comfort score and distance.
 
 For full explanation and results, refer to the `report.pdf`.
