@@ -12,19 +12,23 @@ The optimization was performed using Python and the **DESDEO** library. Pareto f
 Myriana Miltiadous (s3699463)  
 Katerina Zacharia (s3783049)  
 
-## Contents
+## Files
 
-- `output.csv`: Generated dataset of valid bicycle routes with corresponding metrics.
-- Python scripts: Code for generating paths, modeling the problem, and computing the Pareto front.
-- `report.pdf`: **Full technical report** explaining the problem setup, approach, and results in detail.
+-**create_dataset.py :**	Script that generates the adjacency matrix, factor matrices (beauty, safety, etc.), and computes all valid paths from node 0 to node 19. Outputs a CSV file.
+-**moda_assignment2_code.ipynb :**	Main notebook where the optimization is performed using DESDEO and Pareto front visualized using pygmo.
+-**output.csv:**	Generated dataset containing: paths, sum of each comfort factor, and total distance for 126 valid routes.
+-**report.pdf:** Report explaining the problem setup, approach, and results in detail.
 
-## Usage
 
-1. Clone this repository.
-2. Install required libraries:
+## How to Run
+
+1. Generate the dataset:
 ```bash
-pip install pandas matplotlib desdeo pygmo
- ```
+python create_dataset.py
+```
+2. Open the Jupyter Notebook: moda_assignment2_code.ipynb
+3. Run all cells to visualize the Pareto fronts and compare NSGA-III results with the original dataset.
+
 
 ## Notes
 
