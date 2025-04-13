@@ -14,10 +14,10 @@ Katerina Zacharia (s3783049)
 
 ## Files
 
--**create_dataset.py :**	Script that generates the adjacency matrix, factor matrices (beauty, safety, etc.), and computes all valid paths from node 0 to node 19. Outputs a CSV file.
--**moda_assignment2_code.ipynb :**	Main notebook where the optimization is performed using DESDEO and Pareto front visualized using pygmo.
--**output.csv:**	Generated dataset containing: paths, sum of each comfort factor, and total distance for 126 valid routes.
--**report.pdf:** Report explaining the problem setup, approach, and results in detail.
+ - **create_dataset.py :**	Script that generates the adjacency matrix, factor matrices (beauty, safety, etc.), and computes all valid paths from node 0 to node 19. Outputs a CSV file.
+ - **moda_assignment2_code.ipynb :**	Main notebook where the optimization is performed using DESDEO and Pareto front visualized using pygmo.
+ - **output.csv:**	Generated dataset containing: paths, sum of each comfort factor, and total distance for 126 valid routes.
+ - **report.pdf:** Report explaining the problem setup, approach, and results in detail.
 
 
 ## How to Run
